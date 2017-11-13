@@ -25,7 +25,7 @@ BOARD_CUSTOM_BT_CONFIG := device/lge/ls990/bluetooth/vnd_g3.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := crdroid_ls990_defconfig
+TARGET_KERNEL_CONFIG := lineageos_ls990_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
