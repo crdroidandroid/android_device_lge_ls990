@@ -12,8 +12,8 @@ vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
 
 # Bluetooth firmware
-etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd
-etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd
+etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd:vendor/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd
+etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:vendor/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd
 
 # Qualcomm framework
 vendor/lib/libdiag.so
@@ -35,19 +35,19 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
 # Radio
-bin/netmgrd
-bin/qmuxd
-bin/rfs_access
-bin/rmt_storage
-lib/libconfigdb.so
-etc/data/dsi_config.xml
-etc/data/netmgr_config.xml
--lib/libmdmdetect.so
-lib/libuicc.so
-lib/libvss_common_idl.so
-lib/libvss_common_iface.so
-lib/libvss_nv_idl.so
-lib/libvss_nv_iface.so
+bin/netmgrd:vendor/bin/netmgrd
+bin/qmuxd:vendor/bin/qmuxd
+bin/rfs_access:vendor/bin/rfs_access
+bin/rmt_storage:vendor/bin/rmt_storage
+lib/libconfigdb.so:vendor/lib/libconfigdb.so
+etc/data/dsi_config.xml:vendor/etc/data/dsi_config.xml
+etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml
+-vendor/lib/libmdmdetect.so
+lib/libuicc.so:vendor/lib/libuicc.so
+lib/libvss_common_idl.so:vendor/lib/libvss_common_idl.so
+lib/libvss_common_iface.so:vendor/lib/libvss_common_iface.so
+lib/libvss_nv_idl.so:vendor/lib/libvss_nv_idl.so
+lib/libvss_nv_iface.so:vendor/lib/libvss_nv_iface.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libnetmgr.so
 -vendor/lib/libperipheral_client.so
@@ -55,21 +55,21 @@ vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 
 # Venus (media) firmware
-etc/firmware/venus.b00
-etc/firmware/venus.b01
-etc/firmware/venus.b02
-etc/firmware/venus.b03
-etc/firmware/venus.b04
-etc/firmware/venus.mbn
-etc/firmware/venus.mdt
+etc/firmware/venus.b00:vendor/firmware/venus.b00
+etc/firmware/venus.b01:vendor/firmware/venus.b01
+etc/firmware/venus.b02:vendor/firmware/venus.b02
+etc/firmware/venus.b03:vendor/firmware/venus.b03
+etc/firmware/venus.b04:vendor/firmware/venus.b04
+etc/firmware/venus.mbn:vendor/firmware/venus.mbn
+etc/firmware/venus.mdt:vendor/firmware/venus.mdt
 
 # WiFi
-etc/firmware/fw_bcmdhd_apsta.bin
-etc/firmware/fw_bcmdhd.bin
-etc/firmware/fw_bcmdhd_mfg.bin
-etc/wifi/bcmdhd.cal
-etc/wifi/bcmdhd_lgit.cal
-etc/wifi/bcmdhd_murata.cal
+etc/firmware/fw_bcmdhd_apsta.bin:vendor/firmware/fw_bcmdhd_apsta.bin
+etc/firmware/fw_bcmdhd.bin:vendor/firmware/fw_bcmdhd.bin
+etc/firmware/fw_bcmdhd_mfg.bin:vendor/firmware/fw_bcmdhd_mfg.bin
+etc/wifi/bcmdhd.cal:vendor/etc/wifi/bcmdhd.cal
+etc/wifi/bcmdhd_lgit.cal:vendor/etc/wifi/bcmdhd_lgit.cal
+etc/wifi/bcmdhd_murata.cal:vendor/etc/wifi/bcmdhd_murata.cal
 
 # NFC
 vendor/firmware/libpn544_fw.so
