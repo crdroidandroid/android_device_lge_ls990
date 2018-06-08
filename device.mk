@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES += \
     device/lge/g3-common/configs/audio/audio_platform_info_bcm.xml:system/vendor/etc/audio_platform_info.xml \
     device/lge/g3-common/configs/audio/mixer_paths_bcm.xml:system/vendor/etc/mixer_paths.xml
 
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    device/lge/g3-common/bluetooth/BCM4339_003.001.009.0079.0339.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335c0.hcd
+    
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
