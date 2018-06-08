@@ -23,6 +23,7 @@ TARGET_OTA_ASSERT_DEVICE := g3,ls990
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/ls990/bluetooth
 BOARD_CUSTOM_BT_CONFIG := device/lge/ls990/bluetooth/vnd_g3.txt
+BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
