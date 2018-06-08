@@ -18,8 +18,9 @@
 #define _BDROID_BUILDCFG_H
 
 #define BTM_DEF_LOCAL_NAME "LG LS990"
-#define BTA_DISABLE_DELAY 1000 /* in milliseconds */
 
-#define BLE_VND_INCLUDED TRUE
+#define BLE_VND_INCLUDED          TRUE
+#define BLUETOOTH_QTI_SW          TRUE
+#define BT_CLEAN_TURN_ON_DISABLED TRUE
 
 #endif
