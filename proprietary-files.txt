@@ -73,3 +73,4 @@ etc/wifi/bcmdhd_murata.cal:vendor/etc/wifi/bcmdhd_murata.cal
 
 # NFC
 vendor/firmware/libpn544_fw.so
+vendor/lib/hw/nfc.msm8974.so|02f0e2ae71d73f7d2ab25deee7051cfc4b72eca3
