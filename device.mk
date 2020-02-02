@@ -29,10 +29,6 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Radio
-PRODUCT_PACKAGES += \
-    librmnetctl
-
 # Wifi
 PRODUCT_PACKAGES += \
     libnetcmdiface
