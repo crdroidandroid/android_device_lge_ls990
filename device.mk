@@ -22,10 +22,6 @@ PRODUCT_COPY_FILES += \
     device/lge/g3-common/configs/audio/audio_platform_info_bcm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     device/lge/g3-common/configs/audio/mixer_paths_bcm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
-# GPS
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
